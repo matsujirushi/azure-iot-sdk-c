@@ -8,12 +8,13 @@ The Azure IOT Hub Device SDK allows applications written in C99 or later or C++ 
 
 For constained devices - where memory is measured in kilobytes and not megabytes - there are even lighter weight SDK options available.  See [Other Azure IoT SDKs](#other-azure-iot-sdks) for more.
 
+**Important Certificate Changes Coming - Starting June 1, 2022**: Please see the link [here to learn about the certificate changes](https://techcommunity.microsoft.com/t5/internet-of-things/azure-iot-tls-critical-changes-are-almost-here-and-why-you/ba-p/2393169).
+
 
 ## Table of Contents
 - [Azure IoT C SDKs and Libraries](#azure-iot-c-sdks-and-libraries)
   - [Table of Contents](#table-of-contents)
-  - [Getting the  SDK](#getting-the-sdk)
-  - [Compile the SDK](#compile-the-sdk)
+  - [Getting the SDK](#getting-the-sdk)
   - [Samples](#samples)
   - [SDK API Reference Documentation](#sdk-api-reference-documentation)
   - [Other Azure IoT SDKs](#other-azure-iot-sdks)
@@ -27,9 +28,9 @@ For constained devices - where memory is measured in kilobytes and not megabytes
   - [Support](#support)
   - [Read more](#read-more)
   - [SDK Folder Structure](#sdk-folder-structure)
+    - [Deprecated folders](#deprecated-folders)
 - [Long Term Support](#long-term-support)
-  - [Schedule<sup>1</sup>](#schedulesup1sup)
-    - [Planned Release Schedule](#planned-release-schedule)
+  - [Schedule](#schedule)
 
 ## Getting the SDK
   The simplest way to get started with the Azure IoT SDKs on supported platforms is to use the following packages and libraries:
